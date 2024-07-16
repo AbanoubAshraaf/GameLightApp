@@ -19,21 +19,24 @@ This app display a list of games, allows users to favourite games, and shows gam
 1. Implement a bottom tab navigation with two screens: "Games" and "Favourites".
 2. Games Screen:.
   a. Fetch games from
-  `https://mock-game-api-9a408f047f23.herokuapp.com/api/games` and store
-  them in your chosen state management solution.
+  `https://mock-game-api-9a408f047f23.herokuapp.com/api/games` and store them in your chosen state management solution.
+
   b. Display games in a FlatList (or FlashList if you prefer).
+  
   c. Each game card should show:
     i. Game title
     ii. Game icon
     iii. Rating of the game out of 5
     iv. A "Favourite" button
     v. A call to action button that navigates user to the Game Details screen
+    
   d. Implement the ability to add/remove games from favourites.
-3. Game Details:
-  a. When a game card or `Details` button is pressed, navigate to a separate
-  game details screen.
+4. Game Details:
+  a. When a game card or `Details` button is pressed, navigate to a separate game details screen.
+  
   b. Fetch detailed game info from
   `https://mock-game-api-9a408f047f23.herokuapp.com/api/games/${gameID}`.
+  
   c. Display the returned data in an organised layout:
     i. Game title
     ii. Game banner
@@ -42,9 +45,9 @@ This app display a list of games, allows users to favourite games, and shows gam
     v. Rating of the game out of 5
     vi. A "Favourite" button
 
-4. Add To Favourites
+5. Add To Favourites
   a. Add favourite games to the store
-5. Favourites Screen
+6. Favourites Screen
   a. List all favourite games.
 
 ## Development
